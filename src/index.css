@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: green;
+}
+
+.mainBoard {
+  with: 100%;
+  position: relative;
+  height: 600px;
+  border: 2px solid white;
+  background: green;
+}
+
+button.machine {
+  text-align: left;
+  padding: 2px;
+  width: 80%;
+  height: 40px;
+  margin: 5px 0;
+  background-color: white;
+  border: 2px solid black;
+  vertical-align: middle;
+}
+
+.machine span {
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.machine .name {
+  font-weight: bold;
+}
+
+.machine img {
+  width: 10%;
+  vertical-align: middle;
+}
+.machines {
+  position: absolute;
+  width: 40%;
+  right: 5%;
+  top: 5%;
+}
+
+.bagel {
+    position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.bagel button {
+
+  background-color: transparent;
+
+}
+.bagel img {
+  width: 25%;
+}
